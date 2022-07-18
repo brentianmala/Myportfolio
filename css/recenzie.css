@@ -1,0 +1,46 @@
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+body {
+    background-color: #ddd;
+}
+
+textarea {
+    width: 850px;
+    height: 80px;
+    background-color: #fff;
+    resize: none;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    border: none;
+    color: #fff;
+    font-family: arial;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+.comment-box {
+    width: 815px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.comment-box p{
+   font-family: arial;
+   font-size: 14px;
+   line-height: 16px;
+   color: #282828;
+   font-weight: 100;
+}
